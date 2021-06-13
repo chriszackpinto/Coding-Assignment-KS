@@ -1,9 +1,8 @@
 # Kawa Space
 
-Hosting:
+Hosting: https://kawaspace-assignment.netlify.app/
 
-API: https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=
-20
+API: https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=20
 
 Design: https://www.figma.com/file/MuDp24Ezz4hJi2XoO4IIAt/Kawa-Space-Frontend-Intern-Challenge?node-id=0%3A1
 
