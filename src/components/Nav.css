@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+}
+.nav h1 {
+  cursor: pointer;
+}
+.nav-list {
+  display: flex;
+}
+.nav-link {
+  list-style: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.nav-link:hover {
+  text-decoration: #e16259 underline 2px;
+  text-underline-offset: 5px;
+  transition: all 0.3s ease;
+}
+.active {
+  text-decoration: #e16259 underline 2px;
+  text-underline-offset: 5px;
+}

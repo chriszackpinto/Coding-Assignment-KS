@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import { API_URL, DEMO } from "./API/API";
+import "./App.css";
+import Nav from "./components/Nav.js";
+import Display from "./components/Display";
+import CardList from "./components/CardList";
 
 function App() {
+  const [directory, setDirectory] = useState([]);
+  const [display, setDisplay] = useState(DEMO);
+
+  useEffect(() => {
+    async function getNames() {
+      try {
+        const res = await fetch(API_URL);
+        const data = await res.json();
+        setDirectory(data.results);
+        setDisplay(data.results[0]);
+      } catch (error) {
+        console.error(error.message);
+      }
+    }
+    getNames();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Display display={display} />
+      <CardList directory={directory} setDisplay={setDisplay} />
     </div>
   );
 }

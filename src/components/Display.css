@@ -1,0 +1,42 @@
+.display {
+  margin: 40px auto;
+  padding: 40px;
+  width: 70%;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 10px 10px 20px rgb(228, 228, 228);
+  border-radius: 16px;
+}
+.display-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 20px 40px;
+}
+.display-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.display-name {
+  color: #e16259;
+  text-decoration: underline 2px;
+  text-underline-offset: 2px;
+  font-size: 2.5rem;
+}
+.display-gender {
+  color: rgba(0, 0, 0, 0.6);
+}
+@media only screen and (max-width: 768px) {
+  .display {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .display-text {
+    align-items: center;
+    justify-content: center;
+  }
+}
