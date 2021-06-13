@@ -3,8 +3,11 @@ import Card from "./Card";
 import "./CardList.css";
 
 const CardList = ({ directory, setDisplay }) => {
+  const onClick = function (e) {
+    console.log(e.target);
+  };
   return (
-    <div className="cardList">
+    <div className="cardList" onClick={onClick}>
       {directory.map((data) => (
         <Card
           key={data.location.postcode}
