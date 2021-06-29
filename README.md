@@ -1,6 +1,6 @@
 # Kawa Space
 
-Hosting: https://kawaspace-assignment.netlify.app/
+Hosting: https://ks-assignment.netlify.app/
 
 API: https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=20
 
