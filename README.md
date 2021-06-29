@@ -6,43 +6,6 @@ API: https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&resul
 
 Design: https://www.figma.com/file/MuDp24Ezz4hJi2XoO4IIAt/Kawa-Space-Frontend-Intern-Challenge?node-id=0%3A1
 
-```
-Hi Chris,
-You have been shortlisted for the Frontend Developer Internship at Kawa Space. Here is what you need to do.
-Please find attached a task and submit the same in the next 2 days. Please ensure you follow the given instructions carefully.
-Please publish the code on a github private repository and give access to our users - dhruvikn. Also share the link here too.
-If you are shortlisted on the task, you will hear back from our talent team on further steps. We look forward to hearing back from you.
-Regards,
-Aastha Joshipura
-Talent Analyst
-Kawa Space
-
-Challenge
-Create the following design as a react app.
-Design
-https://www.figma.com/file/MuDp24Ezz4hJi2XoO4IIAt/Kawa-Space-Frontend-Inte
-rn-Challenge?node-id=0%3A1
-Data Source
-https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=
-20
-The page is a directory of people and by clicking on a person’s card, the user
-details (at the top of the page) should be updated with the details of the newly
-selected person.
-Please implement the design as shown in the figma link, and add your own flair.
-1. Code must be written using reactjs
-2. We will be looking for well organized, maintainable code.
-3. Fetch the data from the Data Source API on every reload. Do not store the
-data as the API returns different data every time. You can use third party
-libraries such as axios to help you out.
-4. The site should be responsive and you may use any CSS framework to do
-this.
-5. Upload your code to a private repository on GitHub and share it with the
-users paramspace and dhruvikn
-6. Installation and running instructions should be clearly mentioned in the
-README.
-7. We expect this task to take not more than 2 days.
-All the Best!
-```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
