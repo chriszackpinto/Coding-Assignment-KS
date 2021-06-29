@@ -1,4 +1,4 @@
-# Kawa Space
+# KS
 
 Hosting: https://ks-assignment.netlify.app/
 
